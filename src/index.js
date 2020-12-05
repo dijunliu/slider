@@ -6,13 +6,13 @@ const pointList = document.querySelector(".points");
 const screenWidth = document.body.offsetWidth;
 imgContent.style.height = imgs[0].offsetHeight + "px";
 
-for (let index = 0; index < imgs.length; index++) {
-  const point = document.createElement("li");
-  if (index === 0) {
-    point.classList.add("active");
-  }
-  pointList.appendChild(point);
-}
+// for (let index = 0; index < imgs.length; index++) {
+//   const point = document.createElement("li");
+//   if (index === 0) {
+//     point.classList.add("active");
+//   }
+//   pointList.appendChild(point);
+// }
 
 const points = pointList.querySelectorAll("li");
 
