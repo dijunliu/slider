@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+.imgContent {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.imgList li {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-300%);
+}
+.imgList img {
+  width: 100%;
+  height: auto;
+  border: 0;
+  display: block;
+}
+.points {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #adadadad;
+  padding: 5px 5px 5px 10px;
+  border-radius: 19px;
+}
+.points li {
+  float: left;
+  margin-right: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: solid 1px #123;
+}
+.points li.active {
+  background: #333;
+}
