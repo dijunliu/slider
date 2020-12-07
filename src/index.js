@@ -14,7 +14,7 @@ imgContent.style.height = imgs[0].offsetHeight + "px";
 //   pointList.appendChild(point);
 // }
 
-const points = pointList.querySelectorAll("li");
+// const points = pointList.querySelectorAll("li");
 
 let left = imgs.length - 1,
   center = 0,
